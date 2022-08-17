@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ascent/css/bootstrap.css">
+    <link rel="stylesheet" href="./ascent/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./ascent/css/cssPrincipal.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid estilNav">
+
+            <a class="navbar-brand" href="./">- Icono -</a>
+
+            <a class="nav-link active" href="./">Inicio</a>
+
+            <a id="navgcarta" class="nav-link active" href="#carta">Carta</a>
+
+            <a id="navgaleri" class="nav-link active" href="./galeria.html">Galeria</a>
+
+        </div>
+    </nav>
+    <!--/NavBar-->
+
+
+    <!--Carrucel-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./ascent/img/Don pupi.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./ascent/img/Colectivo de trabajo.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./ascent/img/dj.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./ascent/img/img local.jpg" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+
+    <!--/Carrucel-->
+
+
+    <div class="container">
+        <div class="row">
+            <h1 id="nameBar">Disco Bar Don Pupy</h1>
+
+
+            <h6>Direccion:</h6>
+            <p id="info1">Calle 44 #000 / 11 y 13, Bayamo Granma</p>
+            <h6>Contactanos:</h6>
+            <p id="info2">+53 23436369</p>
+            <h6>Direccion de Correo:</h6>
+            <p id="info3">milenisrc@nauta.cu</p>
+
+
+            <h1 id="namehorario">Horario</h1>
+            <p id="namehorario">Jueves - Domingo - - - - 8 PM - 4 AM</p>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <img src="./ascent/img/personal de seguridad.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="row imaglocal">
+            <img src="./ascent/img/barman y camareras.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <h6 id="text1">Nuestras Instalaciones Brindan un Exelente Servicio donde la Oferta Especial es Amor,
+                Energia, Disfrute y Plaser, todo eso es Complementado con una Variedad de Tragos, Musica y Platos que
+                Invitan al Deleite "Nuestra Meta es tu Corazon"</h6>
+
+        </div>
+    </div>
+
+
+    <!--Carta-->
+    <a name="carta"></a>
+    <div class="container">
+        <div class="row">
+            <h1 class="cartaa">Entrantes</h1>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#entremesBolitasQueso" href="./">Bolitas de
+                    Queso - - -
+                    - - - - - - $ 0000.00</a></p>
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#polloFrito" href="./">Pollo Frito - - - - - -
+                    - - -
+                    - - - - $ 0000.00</a></p>
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#ropavieja" href="./">Ropa Vieja - - - - - -
+                    - - -
+                    - - - - $ 0000.00</a></p>
+        </div>
+
+
+
+
+        <!--Modales Entrantes-->
+
+        <!--Bolitas de queso-->
+        <div class="modal fade" id="entremesBolitasQueso" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="entremesBolitasQueso">Bolitas de Queso</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <img src="./ascent/img/entremes bolitas de queso.jpg" class="d-block w-100" alt="...">
+
+                        <h5>Bolitas de Queso</h5>
+                        <h6 id="nameIngred">Ingredientes</h6>
+                        <p>Queso, Ensalada Mixta</p>
+                        <h6>Precio: 0000.00$</h6>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Bolitas de queso-->
+
+
+
+        <!--Pollo Frito-->
+        <div class="modal fade" id="polloFrito" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="polloFrito">Pollo Frito</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <img src="./ascent/img/pollo.jpg" class="d-block w-100" alt="...">
+
+                        <h5>Pollo Frito</h5>
+                        <h6 id="nameIngred">Ingredientes</h6>
+                        <p>Pollo Frito, tostones, Ensalada Mixta</p>
+                        <h6>Precio: 0000.00$</h6>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Pollo Frito-->
+
+
+        <!--Bolitas de ropaVieja-->
+        <div class="modal fade" id="ropavieja" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ropavieja">Ropa Vieja</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <img src="./ascent/img/ropavieja.jpg" class="d-block w-100" alt="...">
+
+                        <h5>Ropa Vieja</h5>
+                        <h6 id="nameIngred">Ingredientes</h6>
+                        <p>Carne Deshebrada, Ensalada Mixta</p>
+                        <h6>Precio: 0000.00$</h6>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Bolitas de queso-->
+
+        <!--/Modales-->
+
+        <div class="container">
+            <div class="row">
+
+                <img src="./ascent/img/pollo.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="row imaglocal">
+                <img src="./ascent/img/cosineras.jpg" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+        <p id="textoscenter">Contamos con un Personal Totalmente Calificado para Brindarles la Mejor Calidad de Nuestros
+            Servicios, de
+            Forma que Usted
+            Tenga la Mejor Experiencia a la Hora de Degustar Nuestros Platos</p>
+
+        <div class="row">
+            <h1 class="cartaa">WHISKY</h1>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#botellaballantines" href="./">Botella Whisky
+                    Ballantines - - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#botellaJameson" href="./">Botella de Whiski
+                    Jameson - - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#botellajw" href="./">Botella de Whiski
+                    Johnnie Wlk - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#botellachivas" href="./">Botella de Whiski
+                    Chivas - - - - $ 0000.00</a></p>
+        </div>
+    </div>
+
+
+
+    <!--Modales Bebidas-->
+
+    <!--Modal Botella ballantines-->
+    <div class="modal fade" id="botellaballantines" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="botellaballantines">Ballantines</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/botella Bal.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Whisky Ballantines</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella ballantines-->
+
+
+    <!--Modal Botella Jameson-->
+    <div class="modal fade" id="botellaJameson" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="botellaJameson">Jameson</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/whiski.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Whisky Jameson</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Jameson-->
+
+    <!--Modal Botella Jonie Wakker-->
+    <div class="modal fade" id="botellajw" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="botellajw">Johnnie Walker</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/jw.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Whisky Johnnie Walker</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>38% Alcohol 1Litro</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Chancelier-->
+
+    <!--Modal Botella chivas-->
+    <div class="modal fade" id="botellachivas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="botellachivas">Chivas Regal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/chiva.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Whisky Chivas Regal</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella cchivas-->
+
+    <!--/Modales Bebidas-->
+    <div class="container">
+        <div class="row">
+
+            <img src="./ascent/img/botrell.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="row imaglocal">
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <h1 class="cartaa">Otras Bebidas</h1>
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#wspremiun" href="./">Botella de Ron
+                    WS Premium - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#vinoespumoso" href="./">Botella de Vino La
+                    Baronne - - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#frontera" href="./">Botella de Vino
+                    Frontera - - - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#tiamaria" href="./">Botella de Licor Tia
+                    Maria - - - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#olmeca" href="./">Botella de Ron Olmeca
+                    - - - - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#paconavio" href="./">Botella de Ron Pacto
+                    Navio - - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#oldpremiers" href="./">Botella de Ron Old
+                    Premiers - - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#habanaclub7" href="./">Botella de Ron
+                    HabanaClub 7 - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#santiagocuba" href="./">Botella de Ron
+                    Santiago Cuba - $ 0000.00</a></p>
+
+            <p id="elemtCarta"><a data-bs-toggle="modal" data-bs-target="#HabanaClubEsp" href="./">Botella de Ron
+                    HabanaClub Esp - $ 000.0</a></p>
+
+        </div>
+    </div>
+
+
+    <!--Modal Otras Bebidas-->
+
+
+    <!--Modal Botella WS Premium-->
+    <div class="modal fade" id="wspremiun" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="wspremiun">WS Premium</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/WS.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Ron WS Premium</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella WS Premium-->
+
+
+    <!--Modal Botella La Baronne-->
+    <div class="modal fade" id="vinoespumoso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="vinoespumoso">La Baronne</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/vino espumoso.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Vino Espumoso La Baronne</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella La Baronne-->
+
+    <!--Modal Botella Frontera-->
+    <div class="modal fade" id="frontera" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="frontera">Frontera</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/vinoFrontera.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Vino Frontera</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Frontera-->
+
+    <!--Modal Botella Tia Maria-->
+    <div class="modal fade" id="tiamaria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tiamaria">Tia Maria</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/tiaMaria.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Licor Tia Maria</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Tia Maria-->
+
+
+    <!--Modal Botella Olmeca-->
+    <div class="modal fade" id="olmeca" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="olmeca">Olmeca</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/olmeca.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Ron Olmeca</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Olmeca-->
+
+
+    <!--Modal Botella Paco Navio-->
+    <div class="modal fade" id="paconavio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="paconavio">Paco Navio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/pacoNavio.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Ron Paco Navio</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Paco Navio-->
+
+
+    <!--Modal Botella Old Premiers-->
+    <div class="modal fade" id="oldpremiers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="oldpremiers">Old Premiers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/oldPremier.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Ron Old Premiers</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Old Premiers-->
+
+
+    <!--Modal Botella  Habana Club 7 Años-->
+    <div class="modal fade" id="habanaclub7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="habanaclub7">Habana Club 7 Años</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/habanaClub7.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Ron Habana Club 7 Años</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Habana Club 7 Años-->
+
+    <!--Modal Botella  Santiago de Cuba-->
+    <div class="modal fade" id="santiagocuba" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="santiagocuba">Santiago de Cuba</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/santiagoCuba.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Ron Santiago de Cuba</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella Santiago de Cuba-->
+
+
+
+    <!--Modal Botella  HabanaClub Esp-->
+    <div class="modal fade" id="HabanaClubEsp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="HabanaClubEsp">Habana Club Especial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <img src="./ascent/img/especial.jpg" class="d-block w-100" alt="...">
+
+                    <h5>Botella de Ron Habana Club Especial</h5>
+                    <h6 id="nameIngred">Informacion</h6>
+                    <p>40% Alcohol 700 ML</p>
+                    <h6>Precio: 0000.00$</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Atras</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Botella HabanaClub Esp-->
+
+
+
+    <!--/Modal Otras Bebidas-->
+
+
+    <div class="container">
+        <div class="row">
+
+            <img src="./ascent/img/botella hiel.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="row imaglocal">
+            <h6 id="textoscenter">Gracias Por Visitar Nuesta Pagina Web les Deseamos una Agradable Estancia</h6>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid finalwes">
+        <div class="row">
+            <footer>
+                <p>©CopyRight Todos Derechos Reservados</p>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="./ascent/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
